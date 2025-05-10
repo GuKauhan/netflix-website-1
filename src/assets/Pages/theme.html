@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema Livre - Netflix</title>
+    <link rel="stylesheet" href="\\10.88.136.162\Javascript\Netflix Grupo 1\netflix-website\src\css\catalogo.css">
+    <script src="\\10.88.136.162\Javascript\Netflix Grupo 1\netflix-website\src\assets\js\carousel.js"></script>
+</head>
+<body>
+    <img src="\\10.88.136.162\Javascript\Netflix Grupo 1\netflix-website\src\assets\Images\iiiii.png" alt="Imagem de fundo" class="imagem-fundo">
+    <header>
+        <img src="\\10.88.136.162\Javascript\Netflix Grupo 1\netflix-website\src\assets\Images\logo2.png" alt="Logo da Netflix" class="logo">
+        <h1>Bem-vindo à Netflix</h1>
+        <nav>
+            <a href="form.html" class="btn-form">Login</a>
+        </nav>
+    </header>
+    <main>
+        <section id="temas">
+            <!-- Filmes -->
+            <div class="coluna">
+                <h2>Filmes</h2>
+                <div class="tema">
+                    <h3>Ação</h3>
+                    <div class="carousel-container">
+                        <button class="scroll-btn left" onclick="scrollLeft('acao')">&#8249;</button>
+                        <div id="acao" class="catalogo">
+                            <a href="https://www.netflix.com/missao-impossivel" target="_blank">
+                                <img src="..//Images/missaoimpossivel.jpg" alt="Missão Impossível" title="Missão Impossível">
+                            </a>
+                            <a href="https://www.netflix.com/velozes-furiosos" target="_blank">
+                                <img src="..//Images/Fast_and_Furious_Poster.jpg" alt="Velozes e Furiosos" title="Velozes e Furiosos">
+                            </a>
+                            <a href="https://www.netflix.com/john-wick" target="_blank">
+                                <img src="..//Images/johnwick.jpg" alt="John Wick" title="John Wick">
+                            </a>
+                            <a href="https://www.netflix.com/extraction" target="_blank">
+                                <img src="..//Images/resgate.jpg" alt="Resgate" title="Resgate">
+                            </a>
+                            <a href="https://www.netflix.com/the-gray-man" target="_blank">
+                                <img src="..//Images/gray.jpg" alt="The Gray Man" title="The Gray Man">
+                            </a>
+                        </div>
+                        <button class="scroll-btn right" onclick="scrollRight('acao')">&#8250;</button>
+                    </div>
+                </div>
+                <div class="tema">
+                    <h3>Terror</h3>
+                    <div class="carousel-container">
+                        <button class="scroll-btn left" onclick="scrollLeft('terror')">&#8249;</button>
+                        <div id="terror" class="catalogo">
+                            <a href="https://www.netflix.com/invocacao-mal" target="_blank">
+                                <img src="..//Images/invocaodomal.jpg" alt="Invocação do Mal" title="Invocação do Mal">
+                            </a>
+                            <a href="https://www.netflix.com/it-a-coisa" target="_blank">
+                                <img src="..//Images/it.jpg" alt="It: A Coisa" title="It: A Coisa">
+                            </a>
+                            <a href="https://www.netflix.com/o-exorcista" target="_blank">
+                                <img src="..//Images/exorcista.jpg" alt="O Exorcista" title="O Exorcista">
+                            </a>
+                            <a href="https://www.netflix.com/bird-box" target="_blank">
+                                <img src="../Images/bird.jpg" alt="Bird Box" title="Bird Box">
+                            </a>
+                        </div>
+                        <button class="scroll-btn right" onclick="scrollRight('terror')">&#8250;</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Séries -->
+            <div class="coluna">
+                <h2>Séries</h2>
+                <div class="tema">
+                    <h3>Drama</h3>
+                    <div class="carousel-container">
+                        <button class="scroll-btn left" onclick="scrollLeft('drama')">&#8249;</button>
+                        <div id="drama" class="catalogo">
+                            <a href="https://www.netflix.com/stranger-things" target="_blank">
+                                <img src="..//Images/stranger.jpg" alt="Stranger Things" title="Stranger Things">
+                            </a>
+                            <a href="https://www.netflix.com/the-crown" target="_blank">
+                                <img src="..//Images/crown.jpg" alt="The Crown" title="The Crown">
+                            </a>
+                            <a href="https://www.netflix.com/breaking-bad" target="_blank">
+                                <img src="..//Images/breaking.jpg" alt="Breaking Bad" title="Breaking Bad">
+                            </a>
+                            <a href="https://www.netflix.com/ozark" target="_blank">
+                                <img src="..///Images/ozark.jpg" alt="Ozark" title="Ozark">
+                            </a>
+                            <a href="https://www.netflix.com/house-of-cards" target="_blank">
+                                <img src="..//Images/house.jpg" alt="House of Cards" title="House of Cards">
+                            </a>
+                        </div>
+                        <button class="scroll-btn right" onclick="scrollRight('drama')">&#8250;</button>
+                    </div>
+                </div>
+                <div class="tema">
+                    <h3>Comédia</h3>
+                    <div class="carousel-container">
+                        <button class="scroll-btn left" onclick="scrollLeft('comedia-series')">&#8249;</button>
+                        <div id="comedia-series" class="catalogo">
+                            <a href="https://www.netflix.com/friends" target="_blank">
+                                <img src="..//Images/friends.jpg" alt="Friends" title="Friends">
+                            </a>
+                            <a href="https://www.netflix.com/brooklyn-nine-nine" target="_blank">
+                                <img src="..//Images/nine.jpg" alt="Brooklyn Nine-Nine" title="Brooklyn Nine-Nine">
+                            </a>
+                            <a href="https://www.netflix.com/the-office" target="_blank">
+                                <img src="..//Images/the.jpg" alt="The Office" title="The Office">
+                            </a>
+                            <a href="https://www.netflix.com/how-i-met-your-mother" target="_blank">
+                                <img src="..//Images/how.jpg" alt="How I Met Your Mother" title="How I Met Your Mother">
+                            </a>
+                            <a href="https://www.netflix.com/parks-and-recreation" target="_blank">
+                                <img src="..//Images/parks.jpg" alt="Parks and Recreation" title="Parks and Recreation">
+                            </a>
+                        </div>
+                        <button class="scroll-btn right" onclick="scrollRight('comedia-series')">&#8250;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Netflix, Inc. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
