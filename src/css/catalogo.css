@@ -84,13 +84,13 @@ main {
     position: relative;
     display: flex;
     align-items: center;
-    overflow: hidden; /* Oculta a barra de rolagem */
+    overflow: hidden; 
 }
 
 .catalogo {
     display: flex;
     gap: 10px;
-    overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
+    overflow-x: hidden; 
     scroll-behavior: smooth;
     padding: 10px;
 }
